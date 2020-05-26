@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1D-bZwexqS_dKh6h8zM11iAVi83Qya91Z'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-1Q0uQShCW1IMoXSiSYjknRAWAukcuYl'
 export_file_name = 'trained_model34.pkl'
 
 classes = ['covid', 'noCovid']
